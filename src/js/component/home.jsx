@@ -31,7 +31,8 @@ export default function Home(props) {
   }
 
   return (
-    <div className="home">
+    <div className="row">
+    <div className="home col-12">
       <h1 className="h1">Counter</h1>
       <div className="card text-bg-dark mb-3">
         <div className="card-body">
@@ -75,5 +76,6 @@ export default function Home(props) {
         {props.resume}
       </button>
     </div>
+</div>
   );
 }

@@ -31,7 +31,8 @@ export default function CountDown(props) {
   }
 
   return (
-    <div className="home">
+    <div className="row">
+    <div className="home col-12">
       <h1 className="h1">Countdown</h1>
       <div className="card text-bg-dark mb-3">
         <div className="card-body">
@@ -74,6 +75,7 @@ export default function CountDown(props) {
       <button className="button btn btn-light" onClick={resumeClick}>
         {props.resume}
       </button>
+    </div>
     </div>
   );
 }
